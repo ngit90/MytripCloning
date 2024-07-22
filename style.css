@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    box-sizing: border-box;
+}
+.container{
+    background: #ffff;
+    color: #fff;
+}
+.header {
+    width:100%;
+    height: 70px;
+    padding: 0;
+    float: left;
+   
+}
+.h_img{
+    height: 32px;
+    width: 104px;
+    margin-left: 70px;
+    margin-top: 17px;
+    float: left;
+}
+.h_btn {
+    width: 80px;
+    height: 35px;
+    border: none;
+    margin-top: 15px;
+    font-size: 14px;
+    background-color: #fff;
+    float: left;
+}
+.h_last {
+    float: left;
+    margin-left: 520px;
+    margin-top: 10px;
+
+}
+#supp {
+    background-color: #fff;
+    border: none;
+    font-size: 14px;
+    
+}
+#book {
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 18px 18px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.section1 {
+    background: url('images/startpage_4_1600.3759fae8.png');
+    background-size: 100% 120%;
+    width: 100%;
+    height: 380px;
+    float: left;
+    }
+    .inner1_s1{
+        font-size: 28px;
+        font-weight: bold;
+        margin-left: 386px;
+        margin-top: 40px;
+       
+    }
+    .inner2_s1{
+        background-color: #ffff;
+        width: 900px;
+        margin-left: 180px;
+        margin-top: 40px;
+        padding: 22px;
+        height: 170px;
+        color: #000;
+        border-radius: 15px 15px;
+    }
+    input[type=radio] {
+        border: 0px;
+        width: 20px;
+        height: 20px;
+        accent-color: darkgreen;
+    } 
+  
+    .tcol1 {
+        width: 200px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .fromto{
+            border-style: solid;
+            border-width: 1px;
+            width: 302px;
+            height: 46px;
+            border-radius: 4px 4px;
+            border-color: red;
+    }
+    .txtfrmto{
+        border:none; 
+        width: 250px; 
+        height: 25px; 
+        font-size: 14px;
+    }
+    .btnsearch{
+    width: 160px;
+    height: 47px;
+    background:darkgreen;
+    border-radius: 15px 15px;
+    font-size: 14px;
+    margin-left: 25px;
+    color: #ffff;
+    font-weight: bold;
+    }
+  
+ 
+ 

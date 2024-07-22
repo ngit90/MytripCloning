@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mytrip Cloning</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img class="h_img" src="images/svgviewer-png-output.png" alt="">
+        </div>
+        <div>
+            <button class="h_btn" style="margin-left: 20px;">Flights</button>
+            <button class="h_btn">Hotels</button>
+            <button class="h_btn">Rental cars</button>
+        </div>
+        <div class="h_last">
+            <button id="supp"> <i class="fa fa-question-circle-o" style="font-size: 18px; font-style: normal;"></i> &nbsp;Support</button>
+            <button id="book"> <i class="fa fa-user-circle-o" style="font-size: 18px; font-style: normal;"></i> &nbsp; My Bookings</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section1">
+            <div class="inner1_s1">
+                <p >Find Cheap Plane Tickets</p>
+            </div>
+            <div class="inner2_s1">
+                <form action="">
+                    <input type="radio" id="return"  name="formradio" value="Return" checked>
+                    <label for="return">Return &nbsp;</label>
+                    <input type="radio" id="oneway" name="formradio" value="OneWay">
+                    <label for="oneWay">One-Way &nbsp;</label>
+                    <input type="radio" id="multi" name="formradio" value="MultiCity">
+                    <label for="multi">Multi-City</label>
+                    <table style="margin-top: 10px;">
+                        <tr class="trow">
+                            <td class="tcol1"> <label for="" style="font-size: 14px;">From</label></td>
+                            <td></td>
+                            <td class="tcol1"><label for="" style="font-size: 14px;margin-left: 15px;">To</label></td>
+                        </tr>
+                        <tr class="trow">
+                            <td>
+                                <div class="fromto">
+                                    <img src="images/take-off.png" alt="" style="width: 18px; height: 18px; margin-left: 15px; margin-top: 12px;">
+                                    <input class="txtfrmto" type="text"  placeholder="From" >
+                                </div>
+                            </td>
+                            <td><img src="images/excha.png" alt="" style="width: 18px; height: 18px; margin-left: 15px;"></td>
+                            <td>
+                                <div class="fromto" style="margin-left: 18px;"> 
+                                    <img src="images/arrivals.png" alt="" style="width: 18px; height: 18px; margin-left: 15px; margin-top: 12px;">
+                                    <input type="text"  class="txtfrmto" placeholder="To">
+                                </div>
+                            </td>
+                            <td><button  class="btnsearch">Search flights</button></td>
+                        </tr>
+                    </table>
+            </form>
+            </div>
+        </div>
+        <div class="section2">
+            <img src="" alt="">
+            <p></p>
+            <img src="" alt="">
+            <p></p>
+            <img src="" alt="">
+            <p></p>
+        </div>
+
+    </div>
+</body>
+</html>
