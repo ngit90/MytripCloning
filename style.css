@@ -3,10 +3,12 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     box-sizing: border-box;
+    color: #000;
 }
 .container{
     background: #ffff;
     color: #fff;
+    width: 100%;
 }
 .header {
     width:100%;
@@ -74,7 +76,6 @@
         margin-top: 40px;
         padding: 22px;
         height: 170px;
-        color: #000;
         border-radius: 15px 15px;
     }
     input[type=radio] {
@@ -114,6 +115,67 @@
     color: #ffff;
     font-weight: bold;
     }
-  
- 
- 
+    .section2
+    {
+        width: 100%; 
+        height: 70px; 
+    }
+  .s2img {
+    width: 38px;
+    height: 38px;
+    margin-top: 15px;
+    filter: invert(21%) sepia(100%) saturate(7414%) hue-rotate(359deg) brightness(94%) contrast(117%);
+    float: left;
+  }
+ .inner1_s2{
+    width: 300px;
+    height: 70px;
+    padding-top: 0px;
+    float: left;
+    
+ }
+ .s2labl{
+    width: 300px;
+    height: 30px;
+    color: #000;
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 700;
+ }
+ .section3{
+    width: 100%; 
+    height: 200px; 
+
+    }
+ .inner1_s3{
+
+    height: 200px;
+    background-color: rgb(241, 239, 239);
+    float: left;
+ }
+ .section3 h4{
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 35px;
+    float: left;
+ }
+ .section3 p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    float: left;
+ }
+ .section3 a{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: maroon;
+    float: left;
+ }
+ .arrw{
+    width: 15px; 
+    height: 15px; 
+    margin-left: 15px;
+    
+    filter: invert(21%) sepia(100%) saturate(7414%) hue-rotate(400deg) brightness(64%) contrast(50%) ;
+ }
