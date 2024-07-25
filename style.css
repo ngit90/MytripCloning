@@ -16,6 +16,7 @@
     height: 70px;
     background-color: #fff;
     padding: 0;
+    z-index: 99;
 
 }
 .h_img{
@@ -230,7 +231,7 @@
 .section5 {
     float: left;
     width: 100%;
-    height: 490px;
+    height: 470px;
     background-color: rgb(184, 206, 199);
 }
 .inner1_s5 {
@@ -256,13 +257,13 @@
     height: 86px;
     position: relative;
     left: 70px;
-    top: 65px;
+    top: 60px;
 }
 .inner3_s5{
     position: relative;
     width: 700px;
     left: 505px;
-    top: 75px;
+    top: 70px;
 
 }
 #img_ftr2{
@@ -273,7 +274,7 @@
 #img_ftr3{
     filter: contrast(20%);
     width: 100px;
-    height: 18px;
+    height: 16px;
     padding-left: 20px;
 }
 #img_ftr4{
@@ -286,7 +287,7 @@
     position: relative;
     width: 1000px;
     left: 100px;
-    top: 70px;
+    top: 60px;
 
 }
 #s5_para1{
